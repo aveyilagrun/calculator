@@ -2,15 +2,15 @@
 
 float average(int a, int b, int c)
     {
-        int averageof3;
-        averageof3=(a+b+c)/3;
-        return averageof3;
+        int average_of_three;
+        average_of_three = (a + b + c) / 3;
+        return average_of_three;
     }
 
 int main()
 {
     int input=0;
-    int averageof3=0;
+    int average_of_three=0;
     
     while(input!=4){
         printf("1: Average of 3 numbers\n");
@@ -26,8 +26,8 @@ int main()
             scanf("%f", &a);
             scanf("%f", &b);
             scanf("%f", &c);
-            averageof3=average(a,b,c);
-            printf("Average = %d\n", averageof3);
+            average_of_three=average(a,b,c);
+            printf("Average = %d\n", average_of_three);
             
         } else if(input==2){
             
